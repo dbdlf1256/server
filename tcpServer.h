@@ -1,7 +1,7 @@
 #ifndef _TCPSERVER_H_
 #define _TCPSERVER_H_
 
-#include <netinet/in.h> // struct sockaddr_in, htons()
+#include <netinet/in.h> // struct sockaddr_in
 
 #define MAX_PACKET  2048
 
