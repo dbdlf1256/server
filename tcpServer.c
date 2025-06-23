@@ -6,7 +6,9 @@
 #include <netinet/in.h> // struct sockaddr_in, htons()
 #include <arpa/inet.h> // inet_addr()
 #include <poll.h> // poll(), struct pollfd
+#include "tcpServer.h"
 
+/*
 #define MAX_PACKET  2048
 
 #define SERVER_IP       "127.0.0.1"
@@ -39,6 +41,7 @@ int CheckEmptyPoll(struct pollfd* polls, int pollSize);
 int AcceptClient(struct pollfd* polls, int pollSize);
 int ReceivePacket(int fd, packet_t* packet);
 int RemoveClient(struct pollfd* poll);
+*/
 
 int TcpServer()
 {
